@@ -1,0 +1,53 @@
+:root {
+    --main_color: #E4E0E1;
+    --alternative_color: #091057;
+    --text_color: #ffffff;
+}
+
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--main_color);
+}
+
+h1 {
+    color: var(--text_color);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text_color);
+}
+
+.logo {
+    height: 150px;
+    text-align: center;
+}
+
+/* .fast-contact-options {
+    
+} */
+
+.head {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.font-list-item {
+    padding-right: 30px;
+}
