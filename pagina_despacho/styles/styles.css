@@ -30,24 +30,50 @@ a {
     color: var(--text_color);
 }
 
-.logo {
-    height: 150px;
+header {
     text-align: center;
 }
 
-/* .fast-contact-options {
-    
-} */
+.menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.logo {
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fast-contact-options {
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 .head {
     display: flex;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
+    width: 1880px;
+    background-color: lightgreen;
 }
 
 .font-list-item {
     padding-right: 30px;
+}
+
+.slider > img {
+    height: 600px;
+}
+
+.main-sections {
+    height: 750px;
+    width: 1200px;
+    background-color: lightblue;
+}
+
+.main {
+    text-align: center;
 }
