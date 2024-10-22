@@ -25,6 +25,7 @@ a {
 }
 
 hr {
+    border: none;
     height: 1rem;
 }
 
