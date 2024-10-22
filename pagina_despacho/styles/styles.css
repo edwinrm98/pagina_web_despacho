@@ -98,3 +98,22 @@ footer {
 .main {
     text-align: center;
 }
+
+.about-us {
+    background-image: url(../img/about-us.jpg);
+}
+
+.services {
+    background-image: url(../img/services.jpg);
+}
+
+.contact {
+    background-image: url(../img/contacto_QUITAR\(es_un_meme_xd\).jpg);
+    height: 40rem;
+    width: 80rem;
+}
+
+.section-bg-settings {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
