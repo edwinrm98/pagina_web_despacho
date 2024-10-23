@@ -2,6 +2,7 @@
     --main_color: #E4E0E1;
     --alternative_color: #091057;
     --text_color: #ffffff;
+    --transition-color: #464343;
 }
 
 * {
@@ -14,9 +15,25 @@ body {
     background-color: var(--main_color);
 }
 
-h1, h2 {
+h1, h2, section {
     color: var(--text_color);
     text-align: center;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--text_color);
+    padding: 0 .5rem;
+}
+
+button i {
+    font-size: 70px;
+}
+
+button:hover i, a:hover {
+    color: var(--transition-color);
 }
 
 a {
@@ -55,10 +72,6 @@ footer {
     padding-top: 200px;
 }
 
-.logo, h1 {
-    left: 0;
-}
-
 .logo {
     height: 150px;
     text-align: center;
@@ -66,7 +79,7 @@ footer {
 }
 
 .fast-contact-options {
-    color: #ffffff;
+    color: var(--text_color);
     position: absolute;
     top: 0;
     right: 0;
@@ -101,7 +114,8 @@ footer {
 }
 
 .about-us {
-    background-image: url(../img/about-us.jpg);
+    display: flex;
+    text-align: center;
 }
 
 .services {
@@ -110,8 +124,6 @@ footer {
 
 .contact {
     background-image: url(../img/contacto_QUITAR\(es_un_meme_xd\).jpg);
-    height: 40rem;
-    width: 80rem;
 }
 
 .section-bg-settings {
@@ -119,18 +131,18 @@ footer {
     background-size: cover;
 }
 
-button {
-    background: none;
-    outline: none;
-    border: none;
-    color: white;
-    padding: 0 .5rem;
+.about-us-img {
+    width: 200px;
+    flex-basis: 50%;
 }
 
-button i {
-    font-size: 70px;
+.about-us-text {
+    flex-basis: 50%;
+    align-items: center;
+    padding-top: 15rem;
+    background-color: var(--alternative_color);
 }
 
-button:hover i {
-    color: #95a5a6;
+.section {
+    padding: 2rem 2rem;
 }
