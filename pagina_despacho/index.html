@@ -78,7 +78,16 @@
         <section class="section">
             <div class="main-sections contact section-bg-settings">
                 <h2>Contacto</h2>
-                <p>AQUI VAN LOS NUMEROS, CORREO Y DOMICILIO</p>
+                <form action="">
+                    <label for="name">Nombre</label>
+                    <input type="text">
+                    <label for="phone">Tel&eacute;fono</label>
+                    <input type="text" pattern="\d{10}" title="Debe ser un número de 10 dígitos" maxlength="10">
+                    <label for="email">Correo electr&oacute;nico</label>
+                    <input type="email">
+                    <label for="message">Nota o mensaje:</label>
+                    <textarea name="message" id="message"></textarea>
+                </form>
             </div>
         </section>
         <section class="section">
