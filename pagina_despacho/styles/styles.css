@@ -9,6 +9,7 @@
     font-family: Roboto, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,6 +19,10 @@ body {
 h1, h2, section {
     color: var(--text_color);
     text-align: center;
+}
+
+h3 {
+    margin-top: 200px;
 }
 
 button {
@@ -106,7 +111,9 @@ footer {
 
 .main-sections {
     text-align: center;
-    display: inline-block;
+    display: flex;
+    width: 100%;
+    position: relative;
 }
 
 .main {
@@ -114,12 +121,7 @@ footer {
 }
 
 .about-us {
-    display: flex;
     text-align: center;
-}
-
-.services {
-    background-image: url(../img/services.jpg);
 }
 
 .contact {
@@ -145,4 +147,35 @@ footer {
 
 .section {
     padding: 2rem 2rem;
+    width: 100%;
+}
+
+.card-service {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+}
+
+.service-1 {
+    background-image: url("../img/service_1.jpg");
+    flex-basis: 25%;
+}
+
+.service-2 {
+    background-image: url("../img/service_2.jpg");
+    flex-basis: 25%;
+}
+
+.service-3 {
+    background-image: url("../img/service_3.png");
+    flex-basis: 25%;
+}
+
+.service-4 {
+    background-image: url("../img/service_4.jpg");
+    flex-basis: 25%;
 }
