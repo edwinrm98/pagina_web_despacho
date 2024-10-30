@@ -2,7 +2,7 @@
     --main_color: #E4E0E1;
     --alternative_color: #091057;
     --text_color: #ffffff;
-    --transition-color: #464343;
+    --transition-color: #e0b046;
 }
 
 * {
@@ -39,6 +39,7 @@ button i {
 
 button:hover i, a:hover {
     color: var(--transition-color);
+    transition: .5s;
 }
 
 a {
@@ -49,6 +50,21 @@ a {
 hr {
     border: none;
     height: 1rem;
+}
+
+label {
+    flex-basis: 50%;
+    margin-right: 2.5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    flex-basis: 45%;
 }
 
 footer {
@@ -107,6 +123,7 @@ footer {
 .img-slider > img {
     height: 600px;
     display: inline-block;
+    transition: opacity 0.5s ease;
 }
 
 .main-sections {
@@ -125,7 +142,8 @@ footer {
 }
 
 .contact {
-    background-image: url(../img/contacto_QUITAR\(es_un_meme_xd\).jpg);
+    background-image: url("../img/contact.jpeg");
+    display: inline-block;
 }
 
 .section-bg-settings {
@@ -161,21 +179,48 @@ footer {
 }
 
 .service-1 {
-    background-image: url("../img/service_1.jpg");
+    background-image: url("../img/service-1.jpeg");
     flex-basis: 25%;
 }
 
 .service-2 {
-    background-image: url("../img/service_2.jpg");
+    background-image: url("../img/service-2.jpeg");
     flex-basis: 25%;
 }
 
 .service-3 {
-    background-image: url("../img/service_3.png");
+    background-image: url("../img/service-3.jpeg");
     flex-basis: 25%;
 }
 
 .service-4 {
-    background-image: url("../img/service_4.jpg");
+    background-image: url("../img/service-4.jpeg");
     flex-basis: 25%;
+}
+
+.contact-form {
+    display: inline-block;
+}
+
+.form-group {
+    display: flex;
+}
+
+.send {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--main_color);
+    border: none;
+    border-radius: 12%;
+    pointer-events: stroke;
+    cursor: pointer;
+}
+
+.send:hover {
+    width: 7rem;
+    height: 7rem;
+    transition: .5s;
+    font-size: 1rem;
+    background-color: var(--transition-color);
+    color: var(--text_color);
 }
