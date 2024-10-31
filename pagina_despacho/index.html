@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/icono-mazo.svg" type="image/png">
 </head>
 <body>
     <header class="head">
@@ -18,11 +19,14 @@
         </div>
         <nav class="menu">
             <span class="fast-contact-options">
-                <a href="#"><i>fb</i></a>
-                <a href="#"><i>x</i></a>
-                <a href="#"><i>ig</i></a>
-                <a href="#"><i>tk</i></a>
-                <a href="#"><i>linkedin</i></a>
+                <span>S&iacute;guenos en nuestras redes sociales: </span>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
             </span>
             <ul class="list-menu">
                 <a href="#"><li class="font-list-item">Inicio</li></a>
@@ -43,23 +47,28 @@
                 <button onclick="next()"><i class="fa-solid fa-caret-right"></i></button>
             </div>
         </div>
+        <hr>
         <section class="card">
             <h2>¿Qui&eacute;nes somos?</h2>
             <div class="main-sections about-us section-bg-settings">
-                <img src="./img/about-us.jpg" alt="" class="about-us-img">
+                <span class="about-us-img"></span>
                 <p class="about-us-text">
-                    En Jur&iacute;dico contable Silva Castro, somos un equipo multidisciplinario de profesionales comprometidos con ofrecer soluciones integrales en el ámbito jurídico y contable. Nuestra misión es proporcionar a nuestros clientes un servicio de alta calidad, respaldado por años de experiencia y un profundo conocimiento del marco legal y fiscal. <br>
-                    Contamos con un equipo de abogados, contadores y asesores fiscales que trabajan en conjunto para brindar un enfoque personalizado que se adapte a las necesidades específicas de cada cliente. Nuestra visión es ser un referente en el sector, reconocidos por nuestra ética profesional, atención al detalle y capacidad de respuesta ante los desafíos legales y contables. <br>
-                    Nuestros Valores <br>
-                    Integridad: Actuamos con transparencia y ética en todas nuestras relaciones profesionales. <br>
-                    Compromiso: Estamos dedicados a la defensa y protección de los intereses de nuestros clientes. <br>
-                    Excelencia: Buscamos la mejora continua y la innovación en nuestros servicios. <br>
-                    Confidencialidad: Respetamos la privacidad de nuestros clientes y garantizamos la confidencialidad de toda la información.
+                    En Jurídico Contable Silva Castro, ofrecemos mucho más que soluciones: brindamos tranquilidad y confianza.<br><br>
+                    Somos un equipo multidisciplinario de expertos en derecho y contabilidad, apasionados por brindar servicios integrales que superen las expectativas de nuestros clientes. Con una combinación de sólida experiencia y profundo conocimiento del marco legal y fiscal, nos comprometemos a ofrecer un acompañamiento profesional de alto nivel en cada paso del camino. <br><br>
+                    Nuestro equipo de abogados, contadores y asesores fiscales trabaja en perfecta sintonía, aportando una perspectiva única que permite adaptarnos a las necesidades particulares de cada cliente. Sabemos que cada caso es único, y por ello desarrollamos soluciones personalizadas que no solo resuelven problemas, sino que generan valor a largo plazo. <br><br>
+                    Nuestra Visión <br>
+                    Queremos ser un referente en el sector jurídico-contable, reconocidos por nuestra ética profesional, precisión y capacidad de respuesta ante cualquier desafío legal o fiscal. <br><br>
+                    Nuestros Valores <br><br>
+                    Integridad: Actuamos con total transparencia y ética, generando relaciones de confianza duradera.
+                    Compromiso: Defendemos y protegemos los intereses de nuestros clientes con dedicación absoluta.
+                    Excelencia: Innovamos y mejoramos continuamente para ofrecer resultados sobresalientes.
+                    Confidencialidad: Garantizamos la privacidad y discreción en todo momento, protegiendo la información de nuestros clientes. <br><br>
+                    En Jurídico Contable Silva Castro, nuestro objetivo es que cada cliente se sienta respaldado, asesorado y confiado de estar en manos de verdaderos profesionales.
                 </p>
             </div>
         </section>
+        <h2>Servicios</h2><br>
         <section class="section">
-            <h2>Servicios</h2><br>
             <div class="main-sections section-bg-settings">
                 <div class="card-service service-1">
                     <h3>Asesoría legal en derecho civil, mercantil, laboral y fiscal</h3>
@@ -75,7 +84,7 @@
                 </div>
             </div>
         </section>
-        <h2>Contacto</h2><br><br>
+        <h2>Contacto</h2>
         <section class="section main-sections contact section-bg-settings">
             <form action="" class="contact-form">
                 <div class="form-group">
@@ -102,46 +111,20 @@
             </form>
         </section>
         <h2>Blog</h2>
-        <section class="section main-sections section-bg-settings">
-            <p class="articulo-blog">
-                La Importancia de la Asesoría Contable en Empresas<br>
-                Introducción<br>
-                En el entorno empresarial actual, contar con una asesoría contable adecuada es fundamental para el éxito y la sostenibilidad de cualquier negocio. La contabilidad no solo se trata de llevar un registro de ingresos y egresos, sino que también implica una planificación financiera efectiva.<br>
-                Beneficios de una Buena Asesoría Contable<br>
-                Cumplimiento Fiscal: Un buen asesor contable se asegura de que tu empresa cumpla con todas las obligaciones fiscales, evitando sanciones y multas.<br>
-                Toma de Decisiones: Con información contable precisa, los propietarios pueden tomar decisiones más informadas sobre inversiones y gastos.<br>
-                Optimización de Recursos: La asesoría contable ayuda a identificar áreas donde se pueden reducir costos y mejorar la eficiencia.<br>
-                Conclusión<br>
-                Invertir en asesoría contable es una decisión estratégica que puede marcar la diferencia entre el éxito y el fracaso de una empresa. No dudes en contactarnos para evaluar cómo podemos ayudarte.<br>
-            </p>
-            <p class="articulo-blog">
-                Aspectos Legales que Todo Emprendedor Debe Conocer<br>
-                Introducción<br>
-                Iniciar un negocio es un camino emocionante, pero también lleno de responsabilidades legales. Comprender estos aspectos es crucial para evitar problemas futuros.<br>
-                Aspectos Legales Clave<br>
-                Registro de la Empresa: Es esencial registrar tu empresa ante las autoridades competentes para obtener su reconocimiento legal.<br>
-                Licencias y Permisos: Dependiendo del tipo de negocio, puede que necesites permisos específicos para operar.<br>
-                Contratos y Acuerdos: Establecer contratos claros con proveedores y clientes ayuda a prevenir malentendidos y protege tus derechos.<br>
-                Conclusión<br>
-                Estar bien informado sobre los aspectos legales puede ahorrarte muchos problemas. Te invitamos a que te asesores con nosotros para que tu emprendimiento inicie con el pie derecho.<br>
-            </p>
-            <p class="articulo-blog">
-                ¿Por Qué es Importante un Plan de Negocios?<br>
-                Introducción<br>
-                Un plan de negocios es una herramienta esencial para cualquier emprendedor. No solo sirve como hoja de ruta para el crecimiento, sino que también es crucial para atraer inversores.<br>
-                Elementos Clave de un Plan de Negocios<br>
-                Resumen Ejecutivo: Una visión general de tu negocio, incluyendo su misión y objetivos.<br>
-                Análisis de Mercado: Investigación sobre tu competencia y el público objetivo.<br>
-                Proyecciones Financieras: Estimaciones sobre ingresos y gastos, que demuestran la viabilidad de tu negocio.<br>
-                Conclusión<br>
-                Desarrollar un plan de negocios sólido te permitirá establecer metas claras y medir tu progreso. Si necesitas ayuda en este proceso, no dudes en contactarnos; estamos aquí para asesorarte.
-            </p>
-        </section>
-        <section class="section">
-            <h2>Oficinas</h2>
-            <div class="main-sections section-bg-settings">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.1148584282346!2d-98.26895522411223!3d19.014659782177308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc79d4b2b84ff%3A0xfc959f95b91c95b3!2sCiudad%20Judicial%20Siglo%20XXI!5e0!3m2!1ses-419!2smx!4v1729626277938!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="section main-sections section-bg-settings blog-section">
+            <div class="articulo-blog">
+                <a href="#">La Importancia de la Asesoría Contable en Empresas</a>
             </div>
+            <div class="articulo-blog">
+                <a href="#">Aspectos Legales que Todo Emprendedor Debe Conocer</a>
+            </div>
+            <div class="articulo-blog">
+                <a href="#">¿Por Qué es Importante un Plan de Negocios?</a>
+            </div>
+        </section>
+        <h2>Oficinas</h2>
+        <section class="section main-sections section-bg-settings ofice-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.1148584282346!2d-98.26895522411223!3d19.014659782177308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc79d4b2b84ff%3A0xfc959f95b91c95b3!2sCiudad%20Judicial%20Siglo%20XXI!5e0!3m2!1ses-419!2smx!4v1729626277938!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
