@@ -1,35 +1,35 @@
-:root {
+:root{
     --main_color: #BEBEBE;
     --alternative_color: #292929;
     --text_color: #ffffff;
     --transition-color: #e0b046;
 }
 
-* {
+*{
     font-family: Roboto, Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
-body {
+body{
     background-color: var(--main_color);
 }
 
-h1, h2, section {
+h1, h2, section{
     color: var(--text_color);
     text-align: center;
 }
 
-h3 {
+h3{
     margin-top: 200px;
 }
 
-button {
+button{
     background: none;
     outline: none;
     border: none;
@@ -37,32 +37,32 @@ button {
     padding: 0 .5rem;
 }
 
-button i {
+button i{
     font-size: 70px;
 }
 
-button:hover i, a:hover {
+button:hover i, a:hover{
     color: var(--transition-color);
     transition: .5s;
 }
 
-a {
+a{
     text-decoration: none;
     color: var(--text_color);
 }
 
-hr {
+hr{
     border: none;
     height: 1rem;
 }
 
-label {
+label{
     flex-basis: 50%;
     margin-right: 2.5rem;
 }
 
 input,
-textarea {
+textarea{
     flex-basis: 45%;
     background: none;
     border: none;
@@ -82,16 +82,16 @@ textarea:focus{
     outline: none;
 }
 
-footer {
+footer{
     background-color: var(--alternative_color);
 }
 
-.title {
+.title{
     flex-grow: 1;
     display: inline-block;
 }
 
-.menu {
+.menu{
     flex-grow: 2;
     position: relative;
     display: inline-block;
@@ -99,7 +99,7 @@ footer {
     right: 0;
 }
 
-.list-menu {
+.list-menu{
     list-style-type: none;
     display: flex;
     flex-wrap: nowrap;
@@ -108,69 +108,69 @@ footer {
     padding-top: 200px;
 }
 
-.logo {
+.logo{
     height: 150px;
     text-align: center;
     margin-top: 20px;
 }
 
-.fast-contact-options {
+.fast-contact-options{
     color: var(--text_color);
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.head {
+.head{
     max-width: 100%;
     display: flex;
     background-color: var(--alternative_color);
     text-align: center;
 }
 
-.font-list-item {
+.font-list-item{
     padding-right: 30px;
 }
 
-.img-slider {
+.img-slider{
     text-align: center;
 }
 
-.img-slider > img {
+.img-slider > img{
     height: 600px;
     display: inline-block;
     transition: opacity 0.5s ease;
 }
 
-.main-sections {
+.main-sections{
     text-align: center;
     display: flex;
     width: 100%;
     position: relative;
 }
 
-.main {
+.main{
     text-align: center;
 }
 
-.about-us {
+.about-us{
     height: 30rem;
     text-align: center;
     /* align-items: center; */
 }
 
-.contact {
+.contact{
     background-image: url("../img/contact.jpeg");
     display: inline-block;
 }
 
-.section-bg-settings {
+.section-bg-settings{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.about-us-img {
+.about-us-img{
     background: url("../img/about-us.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,19 +178,19 @@ footer {
     flex-basis: 50%;
 }
 
-.about-us-text {
+.about-us-text{
     display: flex;
     flex-basis: 50%;
     background-color: var(--alternative_color);
     align-items: center;
 }
 
-.section {
+.section{
     padding: 2rem 2rem;
     width: 100%;
 }
 
-.card-service {
+.card-service{
     width: 200px;
     height: 300px;
     border-radius: 5px;
@@ -207,35 +207,35 @@ footer {
     font-size: 105%;
 }
 
-.service-1 {
+.service-1{
     background-image: url("../img/service-1.jpeg");
     flex-basis: 25%;
 }
 
-.service-2 {
+.service-2{
     background-image: url("../img/service-2.jpeg");
     flex-basis: 25%;
 }
 
-.service-3 {
+.service-3{
     background-image: url("../img/service-3.jpeg");
     flex-basis: 25%;
 }
 
-.service-4 {
+.service-4{
     background-image: url("../img/service-4.jpeg");
     flex-basis: 25%;
 }
 
-.contact-form {
+.contact-form{
     display: inline-block;
 }
 
-.form-group {
+.form-group{
     display: flex;
 }
 
-.send {
+.send{
     width: 5rem;
     height: 5rem;
     background-color: var(--main_color);
@@ -245,7 +245,7 @@ footer {
     cursor: pointer;
 }
 
-.send:hover {
+.send:hover{
     width: 7rem;
     height: 7rem;
     transition: .5s;
@@ -285,17 +285,17 @@ footer {
     background-image: url("../img/articulo-3.jpg");
 }
 
-.articulo-blog:hover {
+.articulo-blog:hover{
     filter: blur(.7px);
     transition: 1s;
     color: var(--transition-color);
 }
 
-.articulo-blog > a {
+.articulo-blog > a{
     margin: 0 auto;
 }
 
-.articulo-blog > a:hover {
+.articulo-blog > a:hover{
     font-size: 110%;
     background-color: var(--alternative_color);
 }
