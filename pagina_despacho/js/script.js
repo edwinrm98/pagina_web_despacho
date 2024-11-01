@@ -21,3 +21,14 @@ function back() {
         mainimg.style.opacity = 1;
     }, 1000);
 }
+
+function validarInput() {
+    const input = document.getElementById("telefono").value;
+    const regex = /^\d{10}$/; 
+
+    if (!regex.test(input)) {
+        alert("Por favor, introduce exactamente 10 dígitos.");
+        return false;
+    }
+    return true;
+}

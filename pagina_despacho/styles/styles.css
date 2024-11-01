@@ -57,18 +57,29 @@ label {
     margin-right: 2.5rem;
 }
 
+input,
 textarea {
+    flex-basis: 45%;
+    background: none;
+    border: none;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    color: #ffffff;
     resize: none;
 }
 
-input[type="email"],
-input[type="text"],
-textarea {
-    flex-basis: 45%;
+textarea{
+    width: 500px;
+    height: 150px;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
 }
 
 footer {
-    background-color: var(--transition-color);
+    background-color: var(--alternative_color);
 }
 
 .title {
@@ -185,6 +196,13 @@ footer {
     align-items: center;
 }
 
+.card-service:hover{
+    filter: blur(.5px);
+    color: var(--transition-color);
+    transition: .5s;
+    font-size: 105%;
+}
+
 .service-1 {
     background-image: url("../img/service-1.jpeg");
     flex-basis: 25%;
@@ -233,20 +251,20 @@ footer {
 }
 
 .blog-section{
-    background-color: var(--alternative_color);
     text-align: center;
     align-items: center;
-    max-width:100%rem;
+    max-width:100%;
 }
 
-.blog-section > .articulo-blog{
+.articulo-blog{
     display: flex;
     flex-basis: 33.3%;
+    width: 100%;
+    height: 300px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 12rem;
+    text-align: center;
     align-items: center;
     margin: 0 1rem;
 }
@@ -263,12 +281,22 @@ footer {
     background-image: url("../img/articulo-3.jpg");
 }
 
+.articulo-blog:hover {
+    filter: blur(.7px);
+    transition: 1s;
+    color: var(--transition-color);
+}
+
 .articulo-blog > a {
     margin: 0 auto;
 }
 
-.ofice-section{
+.articulo-blog > a:hover {
+    font-size: 150%;
     background-color: var(--alternative_color);
+}
+
+.ofice-section{ 
     max-width: 100%;
 }
 
