@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--main_color);
 }
@@ -292,7 +296,7 @@ footer {
 }
 
 .articulo-blog > a:hover {
-    font-size: 150%;
+    font-size: 110%;
     background-color: var(--alternative_color);
 }
 
