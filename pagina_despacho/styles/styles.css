@@ -1,6 +1,6 @@
 :root {
     --main_color: #E4E0E1;
-    --alternative_color: #091057;
+    --alternative_color: #292929;
     --text_color: #ffffff;
     --transition-color: #e0b046;
 }
@@ -62,8 +62,8 @@ textarea {
     flex-basis: 45%;
     background: none;
     border: none;
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    border-right: 1px solid var(--text_color);
+    border-bottom: 1px solid var(--text_color);
     color: #ffffff;
     resize: none;
 }
